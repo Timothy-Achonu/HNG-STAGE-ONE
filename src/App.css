@@ -93,10 +93,14 @@ a {
   margin-bottom: 20px;
   padding: 10px;
   z-index: 1;
-  border-radius: 20px;
+  /* border-radius: 20px; */
   font-weight: bold;
 }
 
 a:hover .display-none {
   display: block;
+}
+
+.social-icons {
+  margin-top: 20px;
 }

@@ -1,5 +1,8 @@
 import "./App.css";
-import imgSrc from "./assets/tim.jpg";
+import userImg from "./assets/tim.jpg";
+import slackImg from "./assets/slack.png";
+import githubImg from "./assets/github.png";
+// import zuriIntern from "./assets/Zuri_Logo.png";
 
 function App() {
   
@@ -7,7 +10,7 @@ function App() {
     <div className="App">
       <div className="person-profile">
         <figure>
-          <img id="profile__img" src={imgSrc} alt="user-profile-img"/>
+          <img id="profile__img" src={userImg} alt="user-profile-img"/>
         </figure>
         <div id="twitter">Timothy Achonu</div>
         <div id="slack">TIMOTHY Achonu</div>
@@ -45,6 +48,10 @@ function App() {
            Design Books
            <span className="display-none">Get the best design books</span>
         </a>
+      </div>
+      <div className="social-icons">
+        <img src={slackImg} alt="slack image" />
+        <img src={githubImg} alt="github image" />
       </div>
     </div>
   );
