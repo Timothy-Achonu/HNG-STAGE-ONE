@@ -20,23 +20,30 @@ function App() {
         </a>
         <a href="https://training.zuri.team/" id="btn__zuri">
           Zuri-Team
-          <span className="display-none">TimothyAchonu</span>
+          <span className="display-none">Zuri Training team</span>
         </a>
         <a href="http://books.zuri.team" id="books">
           Books
-          <span className="display-none">TimothyAchonu</span>
+          <span className="display-none">
+            This is where you would find books about design and coding.
+          </span>
         </a>
         <a href="https://books.zuri.team/python-for-beginners?ref_id=TIMOTHY Achonu" id="book__python">
           Python Books
-          <span className="display-none">TimothyAchonu</span>
+          <span className="display-none">Buy easy to understand and 
+          detailed books on python.
+          </span>
         </a>
         <a href="https://training.zuri.team/" id="pitch">
           Background Check for Coders
-          <span className="display-none">TimothyAchonu</span>
+          <span className="display-none">
+            We offer the best software for Background check. It's easy to use, 
+            fast and reliable.
+          </span>
         </a>
         <a href="https://books.zuri.team/design-rules" id="book__design">
            Design Books
-           <span className="display-none">TimothyAchonu</span>
+           <span className="display-none">Get the best design books</span>
         </a>
       </div>
     </div>

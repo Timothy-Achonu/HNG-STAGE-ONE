@@ -84,14 +84,19 @@ a {
 
 .display-none {
   position: absolute;
-  /* display: none; */
-  background-color: #000;
+  display: none;
+  background-color: hsla(0, 0%, 0%, 0.7);
   color: white;
   top: 50px;
-  width: 60%;
+  width: 80%;
   margin: auto;
-  margin-top: 10px;
-  padding: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
   z-index: 1;
   border-radius: 20px;
+  font-weight: bold;
+}
+
+a:hover .display-none {
+  display: block;
 }
