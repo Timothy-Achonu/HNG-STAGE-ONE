@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/HNG-STAGE-ONE/static/css/main.073c9b0a.css",
+    "main.js": "/HNG-STAGE-ONE/static/js/main.327ddd51.js",
+    "static/js/787.28cb0dcd.chunk.js": "/HNG-STAGE-ONE/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/HNG-STAGE-ONE/index.html",
+    "main.073c9b0a.css.map": "/HNG-STAGE-ONE/static/css/main.073c9b0a.css.map",
+    "main.327ddd51.js.map": "/HNG-STAGE-ONE/static/js/main.327ddd51.js.map",
+    "787.28cb0dcd.chunk.js.map": "/HNG-STAGE-ONE/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.327ddd51.js"
+  ]
+}
