@@ -2,7 +2,8 @@ import "./App.css";
 import userImg from "./assets/tim.jpg";
 import slackImg from "./assets/slack.png";
 import githubImg from "./assets/github.png";
-// import zuriIntern from "./assets/Zuri_Logo.png";
+import zuriLogo from "./assets/Zuri_Logo.png";
+import internLogo from "./assets/I4G.png";
 
 function App() {
   
@@ -53,6 +54,14 @@ function App() {
         <img src={slackImg} alt="slack image" />
         <img src={githubImg} alt="github image" />
       </div>
+      <hr/>
+
+      <footer>
+        <img src={zuriLogo} alt="Zuri logo"/>
+        <div>HNG Internship 9 Frontend Task</div>
+        <img src={internLogo} alt="intern-logo"/>
+
+      </footer>
     </div>
   );
 }
