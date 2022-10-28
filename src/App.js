@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="App">
       <div className="person-profile">
-        <figure>
+        <figure className="profile-img">
           <img id="profile__img" src={userImg} alt="user-profile-img"/>
         </figure>
         <div id="twitter">TimothyAchonu</div>
