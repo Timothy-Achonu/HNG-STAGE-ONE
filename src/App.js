@@ -13,8 +13,8 @@ function App() {
         <figure>
           <img id="profile__img" src={userImg} alt="user-profile-img"/>
         </figure>
-        <div id="twitter">Timothy Achonu</div>
-        <div id="slack">TIMOTHY Achonu</div>
+        <div id="twitter">TimothyAchonu</div>
+        <div id="slack">TimAchonu</div>
         <div className="three-dots">...</div>
       </div>
       <div className="links-container">
