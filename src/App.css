@@ -132,9 +132,9 @@ footer {
   width: 100%;
   color: #999;
   font-weight: 700;
-  padding: 20px 0;
+  padding: 40px 0;
 }
-footer img {
+footer div {
   margin: 20px 0;
 }
 
@@ -156,6 +156,20 @@ footer img {
   .top-right {
     right: 200px;
   }
+  .social-icons img {
+    margin-right: 20px;
+    width: 70px;
+  }
+  footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 30px;
+    font-size: 1.2rem;
+  }
+  footer div {
+    margin: 0;
+  }
+  
 }
 
 @media (min-width: 1200px) {
