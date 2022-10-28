@@ -4,6 +4,7 @@ import slackImg from "./assets/slack.png";
 import githubImg from "./assets/github.png";
 import zuriLogo from "./assets/Zuri_Logo.png";
 import internLogo from "./assets/I4G.png";
+import shareLogo from "./assets/share.png";
 
 function App() {
   
@@ -15,7 +16,8 @@ function App() {
         </figure>
         <div id="twitter">TimothyAchonu</div>
         <div id="slack">TimAchonu</div>
-        <div className="three-dots">...</div>
+        <div className="top-right three-dots">...</div>
+        <div className="top-right share"> <img src={shareLogo}/> </div>
       </div>
       <div className="links-container">
       <a href="https://twitter.com/TimothyAchonu" id="twitter-link">
