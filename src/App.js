@@ -9,6 +9,7 @@ function App() {
         <Routes>
           <Route path="/HNG-STAGE-ONE" element={<LinkTree />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="*" element={<h1>Page Not Found</h1>} />
         </Routes>
      
     </div>

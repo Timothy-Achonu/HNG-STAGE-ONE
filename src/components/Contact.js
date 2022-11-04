@@ -1,8 +1,12 @@
-import React from "react";
+import React, {useState} from "react";
 import Footer from "./Footer";
 import "../assets/contact.css";
 
 export default function Contact() {
+    const [validate, setValidate] = useState(false)
+    function handleValidate() {
+        
+    }
   return (
     <div className="contact-page">
       <h1>Contact me</h1>
@@ -59,7 +63,10 @@ export default function Contact() {
           </label>
         </div>
         <div>
-          <input type="submit" id="btn__submit" value="Send message" />
+          <input type="submit" id="btn__submit" 
+          value="Send message" 
+          onClick={handleValidate}
+          />
         </div>
       </form>
       <hr />
