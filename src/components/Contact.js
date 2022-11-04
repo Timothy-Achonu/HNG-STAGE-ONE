@@ -6,9 +6,9 @@ import "../assets/contact.css";
 export default function Contact() {
   return (
     <div className="contact-page">
-      <Link to="/HNG-STAGE-ONE">HOME</Link>
+      {/* <Link to="/HNG-STAGE-ONE">HOME</Link> */}
       <h1>Contact me</h1>
-      <p className="hi-there">Hi there, contact me to ask me about anything you have in mind</p>
+      <p className="hi-there">Hi there, contact me to ask me about anything you have in mind.</p>
       <form className="form">
         <div className="first-name">
           <label>First Name</label>
@@ -18,7 +18,8 @@ export default function Contact() {
             placeholder="Enter your first name"
             required
           />
-          <span className="display-none">Please Enter your first name </span>
+          <span className="display-none">
+            Please Enter your first name </span>
         </div>
         <div className="last-name">
           <label>Last Name</label>
@@ -28,7 +29,8 @@ export default function Contact() {
             placeholder="Enter your last name"
             required
           />
-          <span className="display-none">Please Enter your first name </span>
+          <span className="display-none">
+            Please Enter your last name </span>
         </div>
         <div>
           <label>Email</label>
@@ -38,7 +40,8 @@ export default function Contact() {
             placeholder="yourname@email.com"
             required
           />
-          <span className="display-none">Please Enter your first name </span>
+          <span className="display-none">Please Enter your 
+          email </span>
         </div>
         <div>
           <label>Message</label>
@@ -48,7 +51,8 @@ export default function Contact() {
             placeholder="Send me a message and I would reply as soon as possible..."
             required
           ></textarea>
-          <span className="display-none">Please Enter your first name </span>
+          <span className="display-none">Please Enter a
+          message </span>
         </div>
         <div className="type-radio">
           <input type="radio" required />

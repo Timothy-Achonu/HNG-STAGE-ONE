@@ -73,7 +73,7 @@
 }
 
 /* form validation */
-/*
+
 .display-none {
     display: none;
 }
@@ -84,12 +84,13 @@
 .form div input:invalid + .display-none, 
 .form div textarea:invalid + .display-none {
    display: block;
+   font-size: 0.8rem;
 }
-*/
 
 
 
 
+/* MEDIA QUERIES */
 @media (min-width : 700px) {
     .contact-page {
         width: 100%;
