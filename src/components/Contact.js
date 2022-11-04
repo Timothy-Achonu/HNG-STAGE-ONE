@@ -53,7 +53,7 @@ export default function Contact() {
           message </span>
         </div>
         <div className="type-radio">
-          <input type="radio" required />
+          <input type="checkbox" required />
           <label>
             You agree to providing your data to Timothy, who may contact you.
           </label>
