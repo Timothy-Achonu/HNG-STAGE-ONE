@@ -1,8 +1,12 @@
 import React from "react";
+import Footer from "./Footer";
+import { Link} from "react-router-dom";
+import '../assets/contact.css'
 
 export default function Contact() {
   return (
     <div className="contact-page">
+        <Link to="/HNG-STAGE-ONE">HOME</Link>
       <h1>Contact me</h1>
       <p>Hi there, contact me to ask me about anything you have in mind</p>
       <form>
@@ -28,21 +32,24 @@ export default function Contact() {
         </div>
         <div>
           <label>Message</label>
-          <input type="textarea" 
-          id="message"
-          placeholder="Send me a message and I would reply as soon as possible..." 
+          <input
+            type="textarea"
+            id="message"
+            placeholder="Send me a message and I would reply as soon as possible..."
           />
         </div>
         <div>
           <input type="radio" />
-          <label>You agree to providing your data to Timothy, who
-            may contact you.
+          <label>
+            You agree to providing your data to Timothy, who may contact you.
           </label>
         </div>
         <div>
           <input type="submit" id="btn__submit" />
         </div>
       </form>
+      <hr />
+      <Footer />
     </div>
   );
 }

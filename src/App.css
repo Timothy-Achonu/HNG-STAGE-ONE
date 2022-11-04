@@ -5,17 +5,18 @@
 }
 
 .App {
-  text-align: center;
   display: flex;
   /* justify-content: center; */
   flex-direction: column;
   align-items: center;
-  padding: 90px 0px;
   padding-bottom: 0;
   width: 100%;
 }
 .link-tree {
-   padding: 0 80px;
+   padding: 90px 80px;
+   width: 100%;
+   text-align: center;
+
 }
 
 #profile__img {
@@ -128,13 +129,18 @@ hr {
   height: 2px;
   width: 100%;
 }
+/* CONTACT PAGE */
 
+
+/* Footer */
 footer {
   text-align: start;
   width: 100%;
   color: #999;
   font-weight: 700;
   padding: 40px 0;
+  /* background-color: black !important; */
+
 }
 footer div {
   margin: 20px 0;
@@ -177,7 +183,6 @@ footer {
     padding: 60px 0px;
     font-size: 1.2rem;
     text-align: center;
-    background-color: black !important;
   }
   footer div {
     margin: 0;

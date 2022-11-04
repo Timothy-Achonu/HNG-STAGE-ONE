@@ -8,7 +8,7 @@ function App() {
     <div className="App">
         <Routes>
           <Route path="/HNG-STAGE-ONE" element={<LinkTree />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/HNG-STAGE-ONE/contact" element={<Contact />} />
         </Routes>
      
     </div>
