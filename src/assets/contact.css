@@ -32,6 +32,7 @@
     flex-direction: column;
     margin-top: 20px;
     color: black;
+    position: relative;
 }
 .form div label {
     font-size: 1.2rem;
@@ -44,7 +45,6 @@
     border: 2px solid #ddd;
     font-size: 1.1rem;
     margin-top: 10px;
-
 }
 .form div textarea {
     height: 150px;
@@ -74,17 +74,20 @@
 
 /* form validation */
 
-.display-none {
+.warning-text {
     display: none;
+    font-size: 0.8rem;
+    margin:10px 0;
+    /* position: absolute; */
+    color: red;
 }
 .form div input:invalid, 
 .form div textarea:invalid {
     border-color: red !important;
 }
-.form div input:invalid + .display-none, 
-.form div textarea:invalid + .display-none {
-   display: block;
-   font-size: 0.8rem;
+.form div input:invalid + .warning-text, 
+.form div textarea:invalid + .warning-text {
+   display: flex;   
 }
 
 

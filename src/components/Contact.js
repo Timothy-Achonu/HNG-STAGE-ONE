@@ -16,7 +16,7 @@ export default function Contact() {
             placeholder="Enter your first name"
             required
           />
-          <span className="display-none">
+          <span className="warning-text">
             Please Enter your first name </span>
         </div>
         <div className="last-name">
@@ -27,7 +27,7 @@ export default function Contact() {
             placeholder="Enter your last name"
             required
           />
-          <span className="display-none">
+          <span className="warning-text">
             Please Enter your last name </span>
         </div>
         <div>
@@ -38,7 +38,7 @@ export default function Contact() {
             placeholder="yourname@email.com"
             required
           />
-          <span className="display-none">Please Enter your 
+          <span className="warning-text">Please Enter your 
           email </span>
         </div>
         <div>
@@ -49,7 +49,7 @@ export default function Contact() {
             placeholder="Send me a message and I would reply as soon as possible..."
             required
           ></textarea>
-          <span className="display-none">Please Enter a
+          <span className="warning-text">Please Enter a
           message </span>
         </div>
         <div className="type-radio">
