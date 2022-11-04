@@ -24,11 +24,15 @@ export default function Contact() {
             type="text"
             id="last_name"
             placeholder="Enter your last name"
+            required
           />
         </div>
         <div>
           <label>Email</label>
-          <input type="email" id="email" placeholder="yourname@email.com" />
+          <input type="email" id="email" 
+          placeholder="yourname@email.com" 
+          required
+          />
         </div>
         <div >
           <label>Message</label>
@@ -36,10 +40,11 @@ export default function Contact() {
             type="textarea"
             id="message"
             placeholder="Send me a message and I would reply as soon as possible..."
+            required
           ></textarea>
         </div>
         <div className="type-radio">
-          <input type="radio" />
+          <input type="radio" required/>
           <label>
             You agree to providing your data to Timothy, who may contact you.
           </label>
