@@ -3,6 +3,7 @@ import LinkTree from "./components/LinkTree";
 import zuriLogo from "./assets/Zuri_Logo.png";
 import internLogo from "./assets/I4G.png";
 import { Routes, Route} from 'react-router-dom';
+import Contact from "./components/Contact";
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
     <div className="App">
       <Routes>
         <Route path="/" element={<LinkTree />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
       <hr />
       <footer>
