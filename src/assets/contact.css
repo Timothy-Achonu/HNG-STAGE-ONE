@@ -56,12 +56,12 @@
     font-size: 1.1rem;
     margin-top: 10px;
 }
-.form div.type-radio {
+.form div.type-checkbox {
     flex-direction: row;
     align-items: flex-start;
     /* padding: 10px 0; */
 } 
-.form div.type-radio input {
+.form div.type-checkbox input {
     margin-right: 9px;
     margin-top: 6px;
 }
@@ -82,12 +82,12 @@
     /* position: absolute; */
     color: red;
 }
-.form div input:invalid, 
-.form div textarea:invalid {
+.form div input.validate:invalid, 
+.form div textarea.validate:invalid {
     border-color: red !important;
 }
-.form div input:invalid + .warning-text, 
-.form div textarea:invalid + .warning-text {
+.form div input.validate:invalid + .warning-text, 
+.form div textarea.validate:invalid + .warning-text {
    display: flex;   
 }
 

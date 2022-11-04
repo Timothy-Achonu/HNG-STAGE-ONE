@@ -4,8 +4,11 @@ import "../assets/contact.css";
 
 export default function Contact() {
     const [validate, setValidate] = useState(false)
-    function handleValidate() {
-        
+    console.log(validate)
+    function handleValidate(e) {
+       e.preventDefault()
+       setValidate(true)
+       console.log('here', validate);
     }
   return (
     <div className="contact-page">
@@ -18,6 +21,7 @@ export default function Contact() {
             type="text"
             id="first_name"
             placeholder="Enter your first name"
+            className={`${validate? "validate" : ""}`}
             required
           />
           <span className="warning-text">
@@ -29,6 +33,7 @@ export default function Contact() {
             type="text"
             id="last_name"
             placeholder="Enter your last name"
+            className={`${validate? "validate" : ""}`}
             required
           />
           <span className="warning-text">
@@ -41,6 +46,7 @@ export default function Contact() {
             id="email"
             placeholder="yourname@email.com"
             required
+            className={`${validate? "validate" : ""}`}
           />
           <span className="warning-text">Please Enter your 
           email </span>
@@ -52,11 +58,12 @@ export default function Contact() {
             id="message"
             placeholder="Send me a message and I would reply as soon as possible..."
             required
+            className={`${validate? "validate" : ""}`}
           ></textarea>
           <span className="warning-text">Please Enter a
           message </span>
         </div>
-        <div className="type-radio">
+        <div className="type-checkbox">
           <input type="checkbox" required />
           <label>
             You agree to providing your data to Timothy, who may contact you.
