@@ -2,16 +2,15 @@ import "./App.css";
 import LinkTree from "./components/LinkTree";
 import zuriLogo from "./assets/Zuri_Logo.png";
 import internLogo from "./assets/I4G.png";
-import { Link, Routes, Route} from 'react-router-dom';
+import { Routes, Route} from 'react-router-dom';
 
 
 function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path="/" element={<Link />} />
+        <Route path="/" element={<LinkTree />} />
       </Routes>
-     <LinkTree />
       <hr />
       <footer>
         <img src={zuriLogo} alt="Zuri logo" />

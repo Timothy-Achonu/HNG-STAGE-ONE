@@ -55,6 +55,10 @@ export default function LinkTree() {
         Design Books
         <span className="display-none">Get the best design books</span>
       </a>
+      <a href='/contacts' id='contact'>
+         Contact
+         <span className="display-none">Go to contact</span>
+      </a>
     </div>
     <div className="social-icons">
       <img src={slackImg} alt="slack logo" />
