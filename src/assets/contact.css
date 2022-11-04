@@ -10,5 +10,78 @@
 
 .contact-page {
     width: 100%;
-    padding: 90px 20px;
+    padding: 0px 20px;
+    padding-top: 70px;
 }
+.contact-page h1 {
+    margin-bottom: 10px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+.form div {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    color: black;
+}
+.form div label {
+    font-size: 1.2rem;
+}
+.form div input {
+    padding: 15px;
+    border-radius: 8px;
+    outline: none;
+    color: gray;
+    border: 2px solid #ddd;
+    font-size: 1.1rem;
+    margin-top: 10px;
+
+}
+.form div textarea {
+    height: 150px;
+    padding: 15px;
+    border-radius: 8px;
+    outline: none;
+    color: gray;
+    border: 2px solid #ddd;
+    font-size: 1.1rem;
+    margin-top: 10px;
+}
+.form div.type-radio {
+    flex-direction: row;
+    align-items: flex-start;
+    /* padding: 10px 0; */
+} 
+.form div.type-radio input {
+    margin-right: 9px;
+    margin-top: 6px;
+    background-color: #1570EF;
+}
+.form div input#btn__submit {
+    background: #1570EF;
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.form div input:invalid {
+    border-color: red !important;
+}
+
+
+
+
+@media (min-width : 700px) {
+    .contact-page {
+        width: 100%;
+        padding: 0px 40px;
+        padding-top: 40px;
+    }
+}
+
+

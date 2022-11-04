@@ -9,7 +9,7 @@ export default function Contact() {
         <Link to="/HNG-STAGE-ONE">HOME</Link>
       <h1>Contact me</h1>
       <p>Hi there, contact me to ask me about anything you have in mind</p>
-      <form>
+      <form className="form">
         <div>
           <label>First Name</label>
           <input
@@ -27,18 +27,18 @@ export default function Contact() {
           />
         </div>
         <div>
-          <label>Email Name</label>
+          <label>Email</label>
           <input type="email" id="email" placeholder="yourname@email.com" />
         </div>
-        <div>
+        <div >
           <label>Message</label>
-          <input
+          <textarea
             type="textarea"
             id="message"
             placeholder="Send me a message and I would reply as soon as possible..."
-          />
+          ></textarea>
         </div>
-        <div>
+        <div className="type-radio">
           <input type="radio" />
           <label>
             You agree to providing your data to Timothy, who may contact you.
