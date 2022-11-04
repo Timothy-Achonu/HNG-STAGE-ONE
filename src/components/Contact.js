@@ -1,12 +1,10 @@
 import React from "react";
 import Footer from "./Footer";
-import { Link } from "react-router-dom";
 import "../assets/contact.css";
 
 export default function Contact() {
   return (
     <div className="contact-page">
-      {/* <Link to="/HNG-STAGE-ONE">HOME</Link> */}
       <h1>Contact me</h1>
       <p className="hi-there">Hi there, contact me to ask me about anything you have in mind.</p>
       <form className="form">
