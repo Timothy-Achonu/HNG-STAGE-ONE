@@ -55,7 +55,7 @@ export default function LinkTree() {
         Design Books
         <span className="display-none">Get the best design books</span>
       </a>
-      <a href='/contacts' id='contact'>
+      <a href='/contact' id='contact'>
          Contact
          <span className="display-none">Go to contact</span>
       </a>
