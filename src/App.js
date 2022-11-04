@@ -1,7 +1,5 @@
 import "./App.css";
 import LinkTree from "./components/LinkTree";
-import zuriLogo from "./assets/Zuri_Logo.png";
-import internLogo from "./assets/I4G.png";
 import { Routes, Route} from "react-router-dom";
 import Contact from "./components/Contact";
 
@@ -12,13 +10,7 @@ function App() {
           <Route path="/HNG-STAGE-ONE" element={<LinkTree />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
-
-      <hr />
-      <footer>
-        <img src={zuriLogo} alt="Zuri logo" />
-        <div>HNG Internship 9 Frontend Task</div>
-        <img src={internLogo} alt="intern-logo" />
-      </footer>
+     
     </div>
   );
 }

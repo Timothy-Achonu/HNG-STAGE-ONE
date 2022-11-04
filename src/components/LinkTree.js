@@ -4,6 +4,7 @@ import slackImg from "../assets/slack.png";
 import githubImg from "../assets/github.png";
 import shareLogo from "../assets/share.png";
 import { Link } from "react-router-dom";
+import Footer from './Footer';
 
 
 export default function LinkTree() {
@@ -65,6 +66,8 @@ export default function LinkTree() {
       <img src={slackImg} alt="slack logo" />
       <img src={githubImg} alt="github logo" />
     </div>
+    <hr />
+    <Footer />
   </div>
   )
 }
