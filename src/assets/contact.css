@@ -15,6 +15,10 @@
 }
 .contact-page h1 {
     margin-bottom: 10px;
+    font-size: 3rem;
+}
+.contact-page .hi-there {
+    font-size: 1.2rem;
 }
 
 .form {
@@ -60,7 +64,6 @@
 .form div.type-radio input {
     margin-right: 9px;
     margin-top: 6px;
-    background-color: #1570EF;
 }
 .form div input#btn__submit {
     background: #1570EF;
@@ -69,9 +72,20 @@
     border-radius: 15px;
 }
 
-.form div input:invalid {
+/* form validation */
+/*
+.display-none {
+    display: none;
+}
+.form div input:invalid, 
+.form div textarea:invalid {
     border-color: red !important;
 }
+.form div input:invalid + .display-none, 
+.form div textarea:invalid + .display-none {
+   display: block;
+}
+*/
 
 
 
@@ -79,8 +93,34 @@
 @media (min-width : 700px) {
     .contact-page {
         width: 100%;
-        padding: 0px 40px;
-        padding-top: 40px;
+        padding: 38px 20px;
+        /* background-color: blueviolet; */
+    }
+}
+@media (min-width : 1200px) {
+    .contact-page {
+        width: 100%;
+        padding: 120px 150px;
+    }
+    .form {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .form div {
+        width: 100%;
+    }
+    .form .first-name, .form .last-name {
+        /* background-color: rebeccapurple; */
+        width: 45%;
+    }
+    .form .last-name {
+        margin-left: 10%;
+    }
+}
+@media (min-width : 1400px) {
+    .contact-page {
+        width: 100%;
+        padding: 150px 220px;
     }
 }
 
