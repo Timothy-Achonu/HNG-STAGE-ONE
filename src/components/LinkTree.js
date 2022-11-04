@@ -3,6 +3,7 @@ import userImg from "../assets/tim.jpg";
 import slackImg from "../assets/slack.png";
 import githubImg from "../assets/github.png";
 import shareLogo from "../assets/share.png";
+import { Link } from "react-router-dom";
 
 
 export default function LinkTree() {
@@ -55,10 +56,10 @@ export default function LinkTree() {
         Design Books
         <span className="display-none">Get the best design books</span>
       </a>
-      <a href='/contact' id='contact'>
+      <Link to='/contact' id='contact'>
          Contact
          <span className="display-none">Go to contact</span>
-      </a>
+      </Link>
     </div>
     <div className="social-icons">
       <img src={slackImg} alt="slack logo" />
