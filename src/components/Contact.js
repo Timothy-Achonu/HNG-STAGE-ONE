@@ -5,8 +5,7 @@ import "../assets/contact.css";
 export default function Contact() {
     const [validate, setValidate] = useState(false)
     console.log(validate)
-    function handleValidate(e) {
-       e.preventDefault()
+    function handleValidate() {
        setValidate(true)
        console.log('here', validate);
     }
