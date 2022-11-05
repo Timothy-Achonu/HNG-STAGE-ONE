@@ -65,7 +65,7 @@ export default function Contact() {
         <div className="type-checkbox">
           <input type="checkbox" required />
           <label>
-            You agree to providing your data to Timothy, who may contact you.
+            You agree to providing your data to Timothy Achonu, who may contact you.
           </label>
         </div>
         <div>
